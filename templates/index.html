@@ -1,78 +1,26 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
         <meta name="keywords"
         content="Austin,python,flask,SQLAlchemy,Data,Analyst,Data Scientist,Coding Boot Camp">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Josh Farmer Personal Page</title>
-        <style type="text/css">
-            body{
-                background-color: rgb(129, 209, 252);
-                margin-left: 15%;
-                margin-right: 15%;
-                border: 2px solid black;
-                padding: 10px 10px 10px 10px;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                text-align: center;
-            }
-            #left_aligned {
-                text-align: left;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-            }
-            a:link {
-                color: darkgray;
-                background-color: transparent;
-                text-decoration: none;
-            }
-            a:visited {
-                color: white;
-                background-color: transparent;
-                text-decoration: none;
-            }
-            a:hover {
-                color: darkblue;
-                background-color: transparent;
-                text-decoration: none;
-            }
-            a:active {
-                color: darkmagenta;
-                background-color: transparent;
-                text-decoration: none;
-            }
-            #ul1 {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-                background-color: rgb(25, 52, 88)
-            }
-
-            #li1 {
-                float: left;
-            }
-
-            #lia1 {
-                display: block;
-                color: white;
-                text-align: center;
-                padding: 16px;
-                text-decoration: none;
-            }
-
-            li a:hover {
-                background-color: #111111
-            }
-        </style>
     </head>
     <body>
-        <ul id="ul1">
+        <div>
+            <ul id="ul1">
             <li id="li1"><a id="lia1" href="#home">Home</a></li>
             <li id="li1"><a id="lia1" href="#gallery">Coding Repos</a></li>
             <li id="li1"><a id="lia1" href="#about">About Me</a></li>
             <li id="li1"><a id="lia1" href="contact">Contact</a></li>
         </ul>
+        </div>
+        <div>
         <h1>Welcome to the beginning of Josh's Personal Webpage</h1>
-        <!-- <img src="bracer.jpg" alt="Bracers Pic" height="200" Width="250" title="Yeah, that's a sexy bracer!"> -->
+        <img src="https://scontent.fftw1-1.fna.fbcdn.net/v/t1.0-9/13938559_10157236035655587_87366522232468564_n.jpg?_nc_cat=108&_nc_ohc=pUAg82KIMd0AX_r-2Yn&_nc_ht=scontent.fftw1-1.fna&oh=fc9e000e08c5554fec0faabad08292b3&oe=5ECA1A81" alt="Family Pic" height="500" Width="375" title="Jess, Sansa and I">
+        </div>
+        <div>
         <h2>Who I am</h2>
         <p>This is a work in progress, and a project I am constantly working to update. I am a data Analytics student from Austin, Texas. I will be graduating from UT's Data Analytics Bootcamp in April of 2020.</p>
         <hr>
@@ -85,6 +33,7 @@
                 <li>SQL</li>
             </ul>
         </p>
+        </div>
         <a href="https://www.linkedin.com/in/yesandfarmer" target="_blank">Visit me on Linkedin</a>
     </body>
 </html>

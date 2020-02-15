@@ -10,6 +10,8 @@ black = "*"
 flask = "*"
 matplotlib = "*"
 pandas = "*"
+sqlalchemy = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.7"
